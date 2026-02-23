@@ -56,7 +56,7 @@ public class ExtraNPC : MonoBehaviour
             _animator.SetBool("IsIdle", true);
         }
 
-        _rigidbody2D.velocity = new Vector3(_radomAxis * _movingSpeed, 0, 0);
+        _rigidbody2D.linearVelocity = new Vector3(_radomAxis * _movingSpeed, 0, 0);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

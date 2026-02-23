@@ -6591,6 +6591,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1022566171693574826, guid: 7f1479eb1c353f0479419ff27c119def,
+        type: 3}
+      propertyPath: day
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022566171693574826, guid: 7f1479eb1c353f0479419ff27c119def,
+        type: 3}
+      propertyPath: _timeType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022566171693574826, guid: 7f1479eb1c353f0479419ff27c119def,
+        type: 3}
+      propertyPath: _monthlyRent
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3967937384933605527, guid: 7f1479eb1c353f0479419ff27c119def,
         type: 3}
       propertyPath: m_Name

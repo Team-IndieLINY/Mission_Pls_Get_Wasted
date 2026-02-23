@@ -93,12 +93,12 @@ public class PlayerController : MonoBehaviour
                 _walkTimeSound = 0.5f;
             }
 
-            _rigidbody.velocity = new Vector3(inputX * _movingSpeed, 0, 0);
+            _rigidbody.linearVelocity = new Vector3(inputX * _movingSpeed, 0, 0);
         }
         else
         {
             _animator.SetBool("IsWalking", false);
-            _rigidbody.velocity = new Vector2(0,0);
+            _rigidbody.linearVelocity = new Vector2(0,0);
         }
     }
 

@@ -19,7 +19,7 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector3(_movingSpeed, 0, 0);
+        _rigidbody.linearVelocity = new Vector3(_movingSpeed, 0, 0);
 
         if (transform.position.x > _endPointTransform.position.x)
         {
