@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/DayEndingScene.unity
     guid: 43cbce6d0caed3347999be51426aecda
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: a8b14743f238d5e45bc4fdaaaeff5d98,
+      type: 3}
+  m_UseUCBPForAssetBundles: 0
